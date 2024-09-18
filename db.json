@@ -1,14 +1,27 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "status": true,
+  "message": "ok",
+  "data": {
+    "requestDetails": {
+      "requestPackageName": "com.package.name",
+      "timestampMillis": "1617893780",
+      "nonce": "aGVsbG8gd29scmQgdGhlcmU"
+    },
+    "appIntegrity": {
+      "appRecognitionVerdict": "PLAY_RECOGNIZED",
+      "packageName": "com.package.name",
+      "certificateSha256Digest": [
+        "6a6a1474b5cbbb2b1aa57e0bc3"
+      ],
+      "versionCode": "42"
+    },
+    "deviceIntegrity": {
+      "deviceRecognitionVerdict": [
+        "MEETS_DEVICE_INTEGRITY"
+      ]
+    },
+    "accountDetails": {
+      "appLicensingVerdict": "LICENSED"
+    }
   }
 }
